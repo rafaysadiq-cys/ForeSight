@@ -11,3 +11,9 @@ __pycache__/
 .pytest_cache/
 bin/
 obj/
+*.pfx
+*.p12
+*.key
+*.snk
+*.obfuscar*
+Obfuscar_Out/

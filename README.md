@@ -51,3 +51,9 @@ ForeSight separates field forensic execution from centralized organizational gov
 ## Standards Compliance
 
 Built in accordance with **ISO/IEC 27037:2012** digital evidence handling guidelines, **NIST SP 800-86** forensic integration standards, and **FRE 902** self-authenticating cryptographic audit verification.
+
+---
+
+## License
+
+Licensed under the [MIT License](LICENSE).

@@ -19,5 +19,7 @@ All notable releases for **ForeSight Workstation** and **ForeSight Headquarters*
 - Added live cloud portal support (`https://foresight.byrs.online`), direct installer streaming, and automated examiner credential notifications.
 - Upgraded interactive topology map, audit category filtering, custom dropdown controls, and SVG brand identity.
 
-### Release Checksum (`Foresight.exe` — Windows x64 Standalone, 135 MB)
-- **SHA-256:** `A9159C566E647850195CD4E2683473F3EFBEB516FDEF9CFD2DFE7A763CF9E4CE`
+### Release Checksum & Digital Signature (`Foresight.exe` — Windows x64 Standalone, ~70 MB ReadyToRun)
+- **SHA-256:** `B5FBF3A6F77F99CF4DABB44F831FE38D5CCB98DAB1DD8311ED399A277B64287B`
+- **Authenticode Signer:** `CN=ForeSight Digital Forensics, O=ForeSight, C=PK` (Thumbprint `A657DB24DD177303C696A41BF1DE72DDD3BC141B`, RFC3161 DigiCert SHA-256 timestamped)
+- **Binary Hardening:** Obfuscar IL symbol renaming & string encryption, ReadyToRun native x64 compilation, PDB/developer-path stripping, Windows DPAPI credential storage, and MIT License.
