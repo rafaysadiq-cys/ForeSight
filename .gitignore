@@ -1,0 +1,13 @@
+*.exe
+*.msi
+*.zip
+*.rar
+*.db
+*.db-shm
+*.db-wal
+.env
+.secret_key
+__pycache__/
+.pytest_cache/
+bin/
+obj/
