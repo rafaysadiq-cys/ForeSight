@@ -16,5 +16,8 @@ All notable releases for **ForeSight Workstation** and **ForeSight Headquarters*
 - Validated Python deep forensic engine (`MBR`/`GPT`, `NTFS`/`FAT32`, carving, `EVTX`/`REGF`, timestomp detection).
 
 ### Headquarters Web Platform
-- Added split cloud deployment readiness (Vercel frontend + Render backend + PostgreSQL + Resend transactional email).
+- Added live cloud portal support (`https://foresight.byrs.online`), direct installer streaming, and automated examiner credential notifications.
 - Upgraded interactive topology map, audit category filtering, custom dropdown controls, and SVG brand identity.
+
+### Release Checksum (`Foresight.exe` — Windows x64 Standalone, 135 MB)
+- **SHA-256:** `A9159C566E647850195CD4E2683473F3EFBEB516FDEF9CFD2DFE7A763CF9E4CE`
