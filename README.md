@@ -56,4 +56,4 @@ Built in accordance with **ISO/IEC 27037:2012** digital evidence handling guidel
 
 ## License
 
-Licensed under the [MIT License](LICENSE).
+Proprietary Software — **All Rights Reserved** (`Copyright (c) 2026 ForeSight Digital Forensics`). See [LICENSE](LICENSE). ForeSight is proprietary closed-source software; reverse engineering, decompilation, redistribution, or unauthorized modification is strictly prohibited.
