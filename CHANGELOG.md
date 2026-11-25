@@ -1,25 +1,15 @@
 # Changelog
 
-All notable releases for **ForeSight Workstation** and **ForeSight Headquarters** are documented in this file.
+Notable releases for **ForeSight Workstation** (`v2.4.1-pro`).
+
+## [v2.4.1-pro] — 2026-11-25
+
+- Updated signed Windows x64 standalone release (`Foresight.exe`).
+- Improved workstation system telemetry, security compliance, and stability.
+
+### Verification (`Foresight.exe` — Windows x64)
+- **SHA-256:** `C8E07CB10A4F1B186AAD1EC12190C1C8BC25DC830B0E1A363FD6FDE51AAEFACD`
 
 ## [v2.4.0-pro] — 2026-11-25
 
-### Security & Governance
-- Enforced authenticated per-workstation token verification on remote command acknowledgments and WebSocket channels.
-- Enabled mandatory first-login temporary-to-permanent password rotation for newly provisioned examiners.
-- Enforced real-time non-dismissible Workstation Lock Screen synchronized with Headquarters WebSocket & heartbeat state.
-- Hardened backend authentication with sliding-window rate limiting, production schema lockdown, and strict multi-tenant isolation.
-
-### Workstation & Analytics
-- Full `.NET 9` WPF Workstation release (`win-x64` standalone) with minimal HQ-linked sign-in flow.
-- Integrated evidence acquisition sealing and automated report submission to Headquarters Vault.
-- Validated Python deep forensic engine (`MBR`/`GPT`, `NTFS`/`FAT32`, carving, `EVTX`/`REGF`, timestomp detection).
-
-### Headquarters Web Platform
-- Added live cloud portal support (`https://foresight.byrs.online`), direct installer streaming, and automated examiner credential notifications.
-- Upgraded interactive topology map, audit category filtering, custom dropdown controls, and SVG brand identity.
-
-### Release Checksum & Digital Signature (`Foresight.exe` — Windows x64 Standalone, ~70 MB ReadyToRun)
-- **SHA-256:** `C8E07CB10A4F1B186AAD1EC12190C1C8BC25DC830B0E1A363FD6FDE51AAEFACD`
-- **Authenticode Signer:** `CN=Rafay, O=ForeSight, C=PK` (Thumbprint `03DAF20E6EFA57995401AB3EA5B5715179B08FCD`, RFC3161 DigiCert SHA-256 timestamped)
-- **Binary Hardening:** Obfuscar IL symbol renaming & string encryption, ReadyToRun native x64 compilation, PDB/developer-path stripping, Windows DPAPI credential storage, and Proprietary Commercial License (All Rights Reserved).
+- Initial `v2.4.0-pro` Workstation & Headquarters platform release.
