@@ -8,7 +8,7 @@ Notable releases for **ForeSight Workstation** (`v2.4.1-pro`).
 - Improved workstation system telemetry, security compliance, and stability.
 
 ### Verification (`Foresight.exe` — Windows x64)
-- **SHA-256:** `C8E07CB10A4F1B186AAD1EC12190C1C8BC25DC830B0E1A363FD6FDE51AAEFACD`
+- **SHA-256:** `225F8FACBC64258A88756F3265257270ECD2D961B356BCE5A66918A5032CB62F`
 
 ## [v2.4.0-pro] — 2026-11-25
 
