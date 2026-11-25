@@ -20,6 +20,6 @@ All notable releases for **ForeSight Workstation** and **ForeSight Headquarters*
 - Upgraded interactive topology map, audit category filtering, custom dropdown controls, and SVG brand identity.
 
 ### Release Checksum & Digital Signature (`Foresight.exe` — Windows x64 Standalone, ~70 MB ReadyToRun)
-- **SHA-256:** `096D6E9B46F4447999145ADCB82DACD77678818FDC0650A85500AF5A790D829F`
-- **Authenticode Signer:** `CN=ForeSight Digital Forensics, O=ForeSight, C=PK` (Thumbprint `A657DB24DD177303C696A41BF1DE72DDD3BC141B`, RFC3161 DigiCert SHA-256 timestamped)
+- **SHA-256:** `C8E07CB10A4F1B186AAD1EC12190C1C8BC25DC830B0E1A363FD6FDE51AAEFACD`
+- **Authenticode Signer:** `CN=Rafay, O=ForeSight, C=PK` (Thumbprint `03DAF20E6EFA57995401AB3EA5B5715179B08FCD`, RFC3161 DigiCert SHA-256 timestamped)
 - **Binary Hardening:** Obfuscar IL symbol renaming & string encryption, ReadyToRun native x64 compilation, PDB/developer-path stripping, Windows DPAPI credential storage, and Proprietary Commercial License (All Rights Reserved).
